@@ -21,7 +21,6 @@ adduser.addEventListener("click", async () => {
     method: "get"
   });
   const userJson = await userData.json();
-
   const user = userJson.results[0];
 
   const classUser = new User(
